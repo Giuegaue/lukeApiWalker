@@ -11,7 +11,6 @@ const Home = () => {
   
 
     const searchFunction = (e) => {
-      console.log("!!!!!!!!!!" + thing)
       e.preventDefault();
       history.push(`/${thing}/${theId}`);
     }
